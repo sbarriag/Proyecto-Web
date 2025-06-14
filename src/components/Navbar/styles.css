@@ -1,0 +1,47 @@
+nav {
+  background-color: #7D0A0A; /* Color rojo oscuro de la paleta */
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #EAD196; /* Color beige/amarillo claro de la paleta */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #BF3131; /* Color rojo medio de la paleta */
+}
+
+.nav-links a.active {
+  background-color: #BF3131; /* Color rojo medio para el estado activo */
+  color: #EEEEEE; /* Color gris claro para mejor contraste */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}

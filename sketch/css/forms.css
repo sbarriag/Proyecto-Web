@@ -1,0 +1,85 @@
+/* Estilos comunes */
+body {
+    font-family: Lucida, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEEEEE;  /* Color para el fondo */
+}
+
+h1 {
+    color: #7D0A0A; 
+    margin-bottom: 30px;
+}
+
+/* Formularios */
+.form-container {
+    background-color: #EAD196; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(125, 10, 10, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #7D0A0A; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #BF3131; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f7f6;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7D0A0A; 
+    box-shadow: 0 0 5px rgba(125, 10, 10, 0.3);
+}
+
+.form-button {
+    background-color: #BF3131; 
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-button:hover {
+    background-color: #7D0A0A; 
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #7D0A0A; 
+}
+
+.form-footer a {
+    color: #BF3131; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
